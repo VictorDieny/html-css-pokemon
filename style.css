@@ -17,6 +17,7 @@ li, a{
 h1 {
     font-size: 3rem;
     font-family: "Comic Neue";
+    text-decoration: underline;
 }
 h2 {
     font-size: 2rem;

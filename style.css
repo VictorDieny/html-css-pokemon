@@ -3,6 +3,7 @@ a {
 }
 body {
     background-color: #ffbc2b;
+    text-align: center;
 }
 img {
     width: 10vw;
@@ -10,7 +11,7 @@ img {
 nav {
     margin-top: 50px;
 }
-li, a{
+p, a{
     font-size: 1.3rem;
     font-family: "Comic Neue";
 }

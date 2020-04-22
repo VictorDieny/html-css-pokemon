@@ -13,18 +13,17 @@ nav {
 }
 p, a{
     font-size: 1.3rem;
-    font-family: "Comic Neue";
 }
 h1 {
     font-size: 3rem;
-    font-family: "Comic Neue";
     text-decoration: underline;
 }
 h2 {
     font-size: 2rem;
-    font-family: "Comic Neue";
 }
 h3 {
     font-size: 1.5rem;
+}
+* {
     font-family: "Comic Neue";
 }

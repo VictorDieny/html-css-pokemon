@@ -8,6 +8,10 @@ body {
 img {
     width: 10vw;
 }
+article > img {
+    width: 20vw;
+}
+
 nav {
     margin-top: 50px;
 }

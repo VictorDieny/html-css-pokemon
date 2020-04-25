@@ -34,3 +34,8 @@ h3 {
 a:hover{
     text-shadow: 7px 7px 6px black;
 }
+aside {
+    display: inline-block;
+    border-style: solid;
+    padding: 6px;
+}

@@ -37,5 +37,7 @@ a:hover{
 aside {
     display: inline-block;
     border-style: solid;
+    border-radius: 30px;
+    background-color: darkcyan;
     padding: 6px;
 }

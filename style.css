@@ -38,6 +38,10 @@ aside {
     display: inline-block;
     border-style: solid;
     border-radius: 30px;
+    box-shadow: 6px 6px 12px;
     background-color: darkcyan;
     padding: 6px;
+}
+aside:hover {
+    box-shadow: 10px 10px 12px;
 }

@@ -1,0 +1,12 @@
+#caracteristiques {
+    width: 90vw;
+}
+#presentation {
+    flex-direction: column;
+}
+.types {
+    flex-direction: column;
+}
+.types > p {
+    margin-bottom: 8px;
+}

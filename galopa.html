@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <title>Galopa</title>
-        <link rel="stylesheet" href="./style.css">
         <link rel="icon" href="assets/logo.png">
-        <link rel="stylesheet" href="./smartphone.css" media="(max-width: 600px)">
-        <link rel="stylesheet" href="./ordi.css" media="(min-width: 600px)">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./smartphone.css" media="(max-width: 800px)">
+        <link rel="stylesheet" href="./ordi.css" media="(min-width: 800px)">
         <link 
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Comic+Neue"
@@ -16,25 +16,42 @@
     <body>
         <header>
             <h1>Galopa</h1>
-            <h2>Pokémon feu</h2>
         </header>
-
-        <section>
+        <section id="presentation">
             <article>
                 <img src="assets/galopa.png" alt="Galopa">
             </article>
             <aside>
-                <p>Catégorie : Pokémon Cheval Feu</p>
-                <p>Taille : 1.7 mètres</p>
-                <p>Poids : 95 kg</p>
-            </aside>
+                <p id="intro">On voit souvent Galopa trotter dans les champs et les plaines. Cependant, lorsque ce Pokémon s'en donne la peine, il peut galoper à plus de 240 km/h et sa crinière flamboyante s'embrase.</p>
+            </aside>    
         </section>
         
+        <div class="types">
+            <strong>Types :</strong>
+            <p class="typeFeu">Feu</p>
+        </div>
+        <div class="types">
+            <strong>Faiblesses :</strong>
+            <p class="typeEau">Eau</p>
+            <p class="typeSol">Sol</p>
+            <p class="typeRoche">Roche</p>
+        </div>
+        <div id="caracteristiques">
+            <ul>
+                <li><span>Taille : </span>1,7m</li>
+                <li><span>Poids : </span>95kg</li>
+                <li><span>Sexe : </span>mâle, femelle</li>
+                <li><span>Catégorie : </span>Cheval Feu</li>
+                <li><span>Talent : </span>Fuite, Torche</li>
+            </ul>
+        </div>
         <nav>
-            <a href="https://www.pokepedia.fr/Galopa" target="_blank">En savoir plus</a>
+            <a href="https://www.pokepedia.fr/Bulbizarre" target="_blank">En savoir plus</a>
             <br> <br>
-            <a href="index.html">Retour à l'accueil</a>
+            <a href="index.html">Retour à l'accueil</a>    
         </nav>
+        
+
         
     </body>
 </html>

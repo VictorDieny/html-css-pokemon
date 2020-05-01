@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <title>Bulbizarre</title>
         <link rel="icon" href="assets/logo.png">
         <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="./smartphone.css" media="(max-width: 600px)">
-        <link rel="stylesheet" href="./ordi.css" media="(min-width: 600px)">
+        <link rel="stylesheet" href="./smartphone.css" media="(max-width: 800px)">
+        <link rel="stylesheet" href="./ordi.css" media="(min-width: 800px)">
         <link 
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Comic+Neue"
@@ -15,21 +15,38 @@
     </head>
     <body>
         <header>
-            <h1>Bulizarre</h1>
-            <h2>Pokémon plante</h2>
+            <h1>Bulbizarre</h1>
         </header>
-        
-        <section>
+        <section id="presentation">
             <article>
                 <img src="assets/bulbizarre.png" alt="Bulbizarre">
             </article>
             <aside>
-                <p>Catégorie : Pokémon Graine</p>
-                <p>Taille : 0.7 mètres</p>
-                <p>Poids : 6.9 kg</p>
-            </aside>
+                <p id="intro">Bulbizarre passe son temps à faire la sieste sous le soleil. Il y a une graine sur son dos. Il absorbe les rayons du soleil pour faire doucement pousser la graine.</p>
+            </aside>    
         </section>
-
+        
+        <div class="types">
+            <strong>Types :</strong>
+            <p class="typePlante">Plante</p>
+            <p class="typePoison">Poison</p>
+        </div>
+        <div class="types">
+            <strong>Faiblesses :</strong>
+            <p class="typeFeu">Feu</p>
+            <p class="typeVol">Vol</p>
+            <p class="typeGlace">Glace</p>
+            <p class="typePsy">Psy</p>
+        </div>
+        <div id="caracteristiques">
+            <ul>
+                <li><span>Taille : </span>0,7m</li>
+                <li><span>Poids : </span>6.9kg</li>
+                <li><span>Sexe : </span>mâle, femelle</li>
+                <li><span>Catégorie : </span>Graine</li>
+                <li><span>Talent : </span>Engrais</li>
+            </ul>
+        </div>
         <nav>
             <a href="https://www.pokepedia.fr/Bulbizarre" target="_blank">En savoir plus</a>
             <br> <br>

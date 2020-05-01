@@ -1,0 +1,9 @@
+#caracteristiques {
+    width: 20vw;
+}
+#presentation {
+    flex-direction: row;
+}
+.types {
+    flex-direction: row;
+}

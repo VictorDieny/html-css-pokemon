@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <title>Mystherbe</title>
-        <link rel="stylesheet" href="./style.css">
         <link rel="icon" href="assets/logo.png">
-        <link rel="stylesheet" href="./smartphone.css" media="(max-width: 600px)">
-        <link rel="stylesheet" href="./ordi.css" media="(min-width: 600px)">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./smartphone.css" media="(max-width: 800px)">
+        <link rel="stylesheet" href="./ordi.css" media="(min-width: 800px)">
         <link 
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Comic+Neue"
@@ -16,24 +16,44 @@
     <body>
         <header>
             <h1>Mystherbe</h1>
-            <h2>Pokémon plante</h2>
         </header>
-        
-        <section>
+        <section id="presentation">
             <article>
                 <img src="assets/mystherbe.png" alt="Mystherbe">
             </article>
             <aside>
-                <p>Catégorie : Pokémon Racine</p>
-                <p>Taille : 0.5 mètres</p>
-                <p>Poids : 5.4 kg</p>
-            </aside>
+                <p id="intro">Pendant la journée, Mystherbe s'enterre dans le sol pour absorber avec son corps tout entier les nutriments présents dans la terre. Plus le sol est fertile, plus ses feuilles sont brillantes.</p>
+            </aside>    
         </section>
         
+        <div class="types">
+            <strong>Types :</strong>
+            <p class="typePlante">Plante</p>
+            <p class="typePoison">Poison</p>
+        </div>
+        <div class="types">
+            <strong>Faiblesses :</strong>
+            <p class="typeFeu">Feu</p>
+            <p class="typeVol">Vol</p>
+            <p class="typeGlace">Glace</p>
+            <p class="typePsy">Psy</p>
+        </div>
+        <div id="caracteristiques">
+            <ul>
+                <li><span>Taille : </span>0,5m</li>
+                <li><span>Poids : </span>5,4kg</li>
+                <li><span>Sexe : </span>mâle, femelle</li>
+                <li><span>Catégorie : </span>Racine</li>
+                <li><span>Talent : </span>Chlorophylle</li>
+            </ul>
+        </div>
         <nav>
-            <a href="https://www.pokepedia.fr/Mystherbe" target="_blank">En savoir plus</a>
-            <br><br>
-            <a href="index.html">Retour à l'accueil</a>
+            <a href="https://www.pokepedia.fr/Bulbizarre" target="_blank">En savoir plus</a>
+            <br> <br>
+            <a href="index.html">Retour à l'accueil</a>    
         </nav>
+        
+
+        
     </body>
 </html>

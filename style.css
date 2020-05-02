@@ -68,6 +68,14 @@ span {
     color: #555555;
     font-style: italic;
 }
+@keyframes apparitionTexte {
+    from {
+        color: #ffbc2b;
+    }
+    to {
+        color: black;
+    }
+}
 .types {
     display: flex;
     margin: 16px 0px 16px 0px;
